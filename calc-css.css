@@ -1,0 +1,55 @@
+#input{
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: darkgrey;
+    margin-left: 10px;
+    margin-top: 5px; 
+    border: none;
+    direction: rtl;
+    
+    
+}
+button{
+    width: 23%;
+height: 13.5%;
+    background-color:hotpink;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 12px;
+    border-radius: 12px;
+    opacity: 0.5;
+    color:blue;
+    box-shadow: 1px 1px 2px white;
+    cursor: pointer;
+    
+    
+}
+button:hover{
+    opacity: 0.35;
+}
+button:active{
+    box-shadow: 1px 1px 5px hotpink inset ;
+
+}
+#div2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150px,-250px);
+    background-color: black;
+    width: 320px;
+    border-radius: 20px; 
+    height: 500px;
+    
+    
+}
+#mosavi{
+    width: 145px;
+    background-color: yellow;
+    opacity: 0.7;
+}
+#div1{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
