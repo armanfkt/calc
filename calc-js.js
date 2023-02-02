@@ -1,93 +1,134 @@
-
-
 const ac = () => {
-   document.getElementById('input').value = ""
-   
+    document.getElementById('input').value = ""
+
+}
+
+const mosavi = () => {
+    document.getElementById('input').value;
 }
 
 
 const c = () => {
-    let len=   document.getElementById('input').lentgh
-    if(len>1){
-        len-1
-    }else{
-        
+    let len = document.getElementById("input").value.length;
+
+    document.getElementById("input").value = document.getElementById("input").value.substring(0, len - 1)
+
+    if(len ===1){
         document.getElementById('input').value = "0.0"
- }
-    
+    }
 }
+
+
 
 //const seven =() => {
- //   document.getElementById("input").value = "7"
+//   document.getElementById("input").value = "7"
 //}
 
-const seven =() => {
-    document.getElementById("input").value = "7"
-    let len= document.getElementById("seven").value.lentgh
-    if(len=1){
-        value
+const seven = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "7"
     }else{
-        value+="7"
+        document.getElementById("input").value += "7"
     }
-    
+
 }
 
-const eight =() => {
-    document.getElementById("input").value += "8"
+
+const eight = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "8"
+    }else{
+        document.getElementById("input").value += "8"
+    }
 }
 
-const nine =() => {
-    document.getElementById("input").value += "9"
+const nine = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "9"
+    }else{
+        document.getElementById("input").value += "9"
+    }
 }
 
-const four =() => {
-    document.getElementById("input").value += "4"
+const four = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "4"
+    }else{
+        document.getElementById("input").value += "4"
+    }
 }
 
-const five =() => {
-    document.getElementById("input").value += "5"
+const five = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "5"
+    }else{
+        document.getElementById("input").value += "5"
+    }
 }
 
-const six =() => {
-    document.getElementById("input").value += "6"
+const six = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "6"
+    }else{
+        document.getElementById("input").value += "6"
+    }
 }
 
-const one =() => {
-    document.getElementById("input").value += "1"
+const one = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "1"
+    }else{
+        document.getElementById("input").value += "1"
+    }
 }
 
-const tow =() => {
-    document.getElementById("input").value += "2"
+const tow = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "2"
+    }else{
+        document.getElementById("input").value += "2"
+    }
 }
-const three =() => {
-    document.getElementById("input").value += "3"
+const three = () => {
+    if(document.getElementById('input').value === "0.0"){
+        document.getElementById("input").value = "3"
+    }else{
+        document.getElementById("input").value += "3"
+    }
 }
 
-const zero =() => {
-    document.getElementById("input").value += "0"
+const zero = () => {
+    if(document.getElementById("input").value === '0.0'){
+        document.getElementById("input").value = "0"
+    }else{
+        document.getElementById("input").value += "0"
+    }
 }
 
-const zarb =() => {
+const zarb = () => {
     document.getElementById("input").value += "*"
 }
 
-const taqsim =() => {
+const taqsim = () => {
     document.getElementById("input").value += "/"
 }
 
-const jam =() => {
+const jam = () => {
     document.getElementById("input").value += "+"
 }
 
-const tafriq =() => {
+const tafriq = () => {
     document.getElementById("input").value += "-"
 }
 
-const darsad =() => {
+const darsad = () => {
     document.getElementById("input").value += "%"
 }
 
-const dot =() => {
+const dot = () => {
     document.getElementById("input").value += "."
+
+
+
 }
 
